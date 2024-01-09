@@ -6,9 +6,6 @@ except:
 import datetime,random
 from requests.structures import CaseInsensitiveDict
 
-rd, gn, lgn, yw, lrd, be, pe = '\033[00;31m', '\033[00;32m', '\033[01;32m', '\033[01;33m', '\033[01;31m', '\033[00;34m', '\033[01;35m'
-cn, k,g = '\033[00;36m', '\033[90m','\033[38;5;130m'
-
 class bcolors:
     HEADER = '\033[95m'
     OKBLUE = '\033[94m'
