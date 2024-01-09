@@ -384,7 +384,7 @@ n = input(f"""{k}
                            |__/  |_|                         
 
         {bcolors.RED}[{bcolors.OKGREEN}+{bcolors.RED}] {bcolors.OKGREEN}Encrypter ! (@esfelurm)  \n
-{bcolors.RED}[{bcolors.OKGREEN}1{bcolors.RED}] {bcolors.OKGREEN}Encrypt use key\n\n{bcolors.RED}[{bcolors.OKGREEN}1{bcolors.RED}] {bcolors.OKGREEN}Encrypt use Lambda\n\n{bcolors.RED}[{bcolors.OKGREEN}1{bcolors.RED}] {bcolors.OKGREEN}Encrypt use multilayer \n\n{lrd}[{gn}+{lrd}] {bcolors.OKCYAN}SELECT : {bcolors.YELLOW}""")
+{bcolors.RED}[{bcolors.OKGREEN}1{bcolors.RED}] {bcolors.OKGREEN}Encrypt use key\n\n{bcolors.RED}[{bcolors.OKGREEN}1{bcolors.RED}] {bcolors.OKGREEN}Encrypt use Lambda\n\n{bcolors.RED}[{bcolors.OKGREEN}1{bcolors.RED}] {bcolors.OKGREEN}Encrypt use multilayer \n\n{bcolors.OKCYAN}SELECT : {bcolors.YELLOW}""")
 
 if n == '1':
 	EnKey()
