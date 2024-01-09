@@ -1,4 +1,8 @@
-import marshal,base64,gzip,bz2,os,python_minifier,requests,os
+import marshal,base64,gzip,bz2,os,requests,os
+try:
+    import python_minifier
+except:
+    os.system("pip install python_minifier")
 import datetime,random
 from requests.structures import CaseInsensitiveDict
 
