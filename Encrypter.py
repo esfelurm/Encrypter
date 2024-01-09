@@ -109,13 +109,6 @@ def EnNum():
             break
         print (f'{bcolors.OKGREEN}File saved as : {out}')
             
-
-import marshal,base64,gzip,zlib,bz2,os,python_minifier,requests,os,time
-import requests,datetime,random
-from requests.structures import CaseInsensitiveDict
-
-
-
 print(bcolors.WHITE)
 def banner():
      c = f"""{k}
