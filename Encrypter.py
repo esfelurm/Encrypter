@@ -297,7 +297,7 @@ def encode4(code):
      except:
        code = code
      code = gzip.compress(base64.b64encode(code))
-     return  f"#ENCRYPT BY CRYPTO TOT\nimport base64,marshal,gzip,zlib\ntry:\n exec(base64.b64decode(gzip.decompress({code})))\nexcept Exception as f:\n print('errror encode'+str(f))#V2"
+     return  f"#@esfelurm\nimport base64,marshal,gzip,zlib\ntry:\n exec(base64.b64decode(gzip.decompress({code})))\nexcept Exception as f:\n print('errror encode'+str(f))#V2"
 
 
 
