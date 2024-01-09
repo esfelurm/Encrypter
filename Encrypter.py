@@ -394,7 +394,7 @@ elif n == '3':
     try:
      main()
     except Exception as p:
-         print(k+"\n\t\t["+lrd+"*"+k+"]"+lrd+f' Error main {p}  \n'+pe)
+         print(k+"\n\t\t["+bcolors.RED+"*"+k+"]"+bcolors.RED+f' Error main {p}  \n'+bcolors.OKGREEN)
          exit()
 else:
 	exit()
