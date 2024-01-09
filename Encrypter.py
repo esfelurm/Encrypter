@@ -5,7 +5,7 @@ except:
     os.system("pip install python_minifier")
 from colorama import init
 init()
-k = ''
+k = '\033[90m'
 import datetime,random
 from requests.structures import CaseInsensitiveDict
 
