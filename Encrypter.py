@@ -3,6 +3,8 @@ try:
     import python_minifier
 except:
     os.system("pip install python_minifier")
+from colorama import init
+init()
 import datetime,random
 from requests.structures import CaseInsensitiveDict
 
