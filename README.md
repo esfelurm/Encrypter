@@ -15,6 +15,6 @@
 
  ```
 git clone https://github.com/esfelurm/Encrypter
-cd Encrypt
-python Encrypt.py
+cd Encrypter
+python Encrypter.py
 ```
